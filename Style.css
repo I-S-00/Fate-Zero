@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+h1,h4{color:rgb(214, 121, 130);font-size:80px;} 
+/* affects all h1 tags */
+h4{font-size:40px;}
+h3{color:rgb(214, 121, 130); font-size:40px;}
+/* .large{font-size: 50px;}
+in html ad class="large" in between <p><p> */
+.textallignment{text-align: right;}
+
+.intro{color: rgb(214, 121, 130);font-size: 25px; font-style: italic; font-family: "Fuzzy Bubbles";background-color: rgba(114, 51, 51, 0.582);text-align: center;}
+body{background-image:url("Fyuuki_Fire.png")}
+.textcolour{color: rgb(214, 121, 130);}
+body{margin:0pt}
+
+/* margin-left:auto;
+    margin-right:auto;
+    display: block; */
+
+
+#navigation{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(256,256,256,.03);
+    background-image: -moz-linear-gradient(top, #111,#0c0c0c);
+    background-image: -ms-linear-gradient(top, #111, #0c0c0c);
+    background-image: -o-linear-gradient(top, #111, #0c0c0c);
+    background-image: -webkit-linear-gradient(top, #111, #0c0c0c);
+    font-family: "Amethysta", serif ;
+    font-size: 30px;
+}
+body {
+background-color: #111;
+  color: #FFF;
+}
+
+h1 {
+  background-color: rgba(256,256,256,.03);
+  background-image: -webkit-linear-gradient(top, #111, #0c0c0c);
+  background-image: -moz-linear-gradient(top, #111, #0c0c0c);
+  background-image: -ms-linear-gradient(top, #111, #0c0c0c);
+  background-image: -o-linear-gradient(top, #111, #0c0c0c);
+  font-size: 60px;
+  font-family: "Amethysta", serif;
+  text-align: center;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  white-space:nowrap;
+}
+
+h4{
+    background-color:rgba(256,256,256,.03);
+    font-size: 30px;
+    font-family: "Amethysta", serif;
+    text-align: center;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    white-space:nowrap;
+}
+h3{
+    background-color:rgba(056,056,056,.73) ;
+    font-size: 30px;
+    font-family:"Amethysta", serif;
+    text-align: center;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    white-space: nowrap;
+}
+.centre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
